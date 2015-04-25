@@ -9,15 +9,18 @@ html {
 
 body {
   background: white;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Segoe UI", Helvetica, Arial, sans-Serif;
   color: #333;
   width: 960 / 16 * 1em;
   margin: 0 auto;
+  padding-top: 1.5625em;
 }
 
 h1 {
   color: purple;
   font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 img {

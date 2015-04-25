@@ -1,0 +1,14 @@
+// .search-bos.scss
+
+.search-box {
+  font-style: italic;
+  font-size: 0.8em;
+  color: $gray;
+  height: 1.5625em;
+  input {
+    background: $gray-lighter;
+    border: 0;
+    margin: 0;
+    padding: 0.325em;
+  }
+}

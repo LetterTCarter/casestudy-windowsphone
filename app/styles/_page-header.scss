@@ -1,0 +1,10 @@
+// .page-header.scss
+
+.page-header {
+  position: relative;
+  .search-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
