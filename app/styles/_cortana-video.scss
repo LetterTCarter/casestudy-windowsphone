@@ -1,0 +1,26 @@
+// .cortana-video.scss
+
+.cortana-video {
+  @include clearfix;
+  position: relative;
+  background: $blue-light;
+  color: $white;
+  margin: 0;
+  padding: 0;
+  img {
+    float: left;
+  }
+  .cortana-video-text {
+    margin-top: 1em;
+    margin-right: 0.325em;
+    padding: 0.625em;
+  }
+  h3 img {
+    float: none;
+    padding-left: 0.625em;
+  }
+  a {
+    text-decoration: none;
+    color: $white;
+  }
+}
