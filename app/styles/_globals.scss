@@ -11,9 +11,12 @@ body {
   background: white;
   font-family: "Segoe UI", Helvetica, Arial, sans-Serif;
   color: #333;
+  padding-top: 1.5625em;
+}
+
+.container {
   width: 960 / 16 * 1em;
   margin: 0 auto;
-  padding-top: 1.5625em;
 }
 
 h1 {
@@ -37,7 +40,12 @@ h3 {
   font-size: 1.4em;
   font-weight: normal;
   margin: 0;
-  padding: 0 0 0.625em 0;
+  padding: 0;
+}
+
+h5 {
+  margin: 0;
+  padding: 0;
 }
 
 .browserupgrade {

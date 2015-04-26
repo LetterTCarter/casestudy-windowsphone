@@ -5,14 +5,16 @@
   position: relative;
   background: $blue-light;
   color: $white;
+  width: 100%;
   margin: 0;
   padding: 0;
   img {
     float: left;
+    margin: 0;
+    padding: 0;
   }
   .cortana-video-text {
-    margin-top: 1em;
-    margin-right: 0.325em;
+    margin: 0;
     padding: 0.625em;
   }
   h3 img {

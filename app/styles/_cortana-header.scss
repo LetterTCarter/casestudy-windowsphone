@@ -1,20 +1,33 @@
 // .cortana-header.scss
 
 .cortana-header {
+  @include clearfix;
+  position: relative;
   background: black;
   margin: 0;
   padding: 0;
-  img {
+  width: 100%;
+  .cortana-link {
+    text-align: center;
+  }
+  img#cortana-icon {
     margin: 0;
-    padding: 0;
+    padding-left: 15em;
+    float: left;
   }
   a {
     text-decoration: none;
     font-weight: normal;
     color: $blue;
-    padding: 0.625em;
+  }
+  h3 {
+    position: absolute;
+    top: 2.5em;
+    right: 12em;
   }
   h3 img {
-    padding-left: 0.625em;
+    margin: 0;
+    padding: 0 0 0 0.625em;
+    float: none;
   }
 }

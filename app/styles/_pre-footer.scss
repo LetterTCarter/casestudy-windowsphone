@@ -1,0 +1,28 @@
+// .pre-footer-module.scss
+
+.pre-footer {
+  @include clearfix;
+  margin: 0;
+  padding: 0;
+  .pre-footer-module {
+    width: 25%;
+    float: left;
+    margin: 0;
+    padding: 0.625em;
+    p {
+      margin: 0;
+      padding: 0;
+    }
+    h5 {
+      margin: 0;
+      padding: 0;
+    }
+    a {
+      text-decoration: none;
+      color: $gray;
+      &:hover {
+        color: $purple-light;
+      }
+    }
+  }
+}
