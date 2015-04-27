@@ -2,17 +2,17 @@
 
 .cortana-header {
   @include clearfix;
-  position: relative;
   background: black;
   margin: 0;
   padding: 0;
   width: 100%;
-  .cortana-link {
+  .container-header {
     text-align: center;
+    width: 40em;
+    margin: 0 auto;
   }
   img#cortana-icon {
     margin: 0;
-    padding-left: 15em;
     float: left;
   }
   a {
@@ -21,13 +21,11 @@
     color: $blue;
   }
   h3 {
-    position: absolute;
-    top: 2.5em;
-    right: 12em;
+    padding-top: 2.5em;
   }
   h3 img {
     margin: 0;
-    padding: 0 0 0 0.625em;
+    padding-left: 0.625em;
     float: none;
   }
 }

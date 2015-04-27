@@ -2,23 +2,22 @@
 
 .main-navigation {
   font-size: 1.1em;
-}
-
-ul {
-  @include clearfix;
-  list-style-type: none;
-  margin: 0.625em 0;
-  padding: 0;
-  li {
-    float: left;
-    margin-right: 1em;
-    padding: 0 0.25em 0 0;
+  ul {
+    @include clearfix;
+    list-style-type: none;
+    margin: 0.625em 0;
+    padding: 0;
   }
-  a {
-    text-decoration: none;
-    color: $black;
-    &:hover {
-      color: $purple-light;
+    li {
+      float: left;
+      margin-right: 1em;
+      padding: 0 0.25em 0 0;
+    }
+    a {
+      text-decoration: none;
+      color: $black;
+      &:hover {
+        color: $purple-light;
+      }
     }
   }
-}

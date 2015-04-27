@@ -1,14 +1,24 @@
 // .search-bos.scss
 
 .search-box {
+  @include clearfix;
   font-style: italic;
   font-size: 0.8em;
   color: $gray;
-  height: 1.5625em;
   input {
     background: $gray-lighter;
+    height: 1.5625em;
+  }
+  #search-field {
+    float: left;
+    width: 17.5em;
     border: 0;
     margin: 0;
-    padding: 0.325em;
+    padding: 0 0 0 0.625em;
   }
-}
+  #searchButton {
+    margin: 0;
+    padding: 0.175em;
+    float: right;
+    }
+  }
