@@ -1,0 +1,27 @@
+// .personal-smartphone-video.scss
+
+.personal-smartphone-video {
+  @include clearfix;
+  position: relative;
+  color: $white;
+  background: url('../images/HP-Windows-Phone-Most-Personal-Smartphone_InvariantCulture_Default.jpg') no-repeat;
+  margin: 0;
+  padding: 0;
+  .smartphone-video-text {
+    width: 20em;
+    position: absolute;
+    top: 0;
+    right: 40em;
+  }
+  p {
+    font-weight: bold;
+  }
+  h3 img {
+    float: none;
+    padding-left: 0.625em;
+  }
+  a {
+    text-decoration: none;
+    color: $white;
+  }
+}
