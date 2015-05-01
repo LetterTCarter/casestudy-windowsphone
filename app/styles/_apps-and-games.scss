@@ -5,13 +5,15 @@
   margin: 0;
   padding: 0;
   color: $white;
+  height: 420px;
   img {
     margin-top: 3.5em;
   }
-  .apps-container {
-    width: 40em;
-    margin: 0 10em;
+  .apps-text {
+    width: 30em;
+    margin: 0;
     padding-bottom: 3em;
+    float: left;
   }
   h3 {
     display: inline;

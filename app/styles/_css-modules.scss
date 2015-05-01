@@ -1,6 +1,8 @@
 // .css-modules.scss
 
 .css-module {
+  width: 960 / 16 * 1em;
+  margin: 0 auto;
   margin-bottom: 6em;
   &> h2 {
     padding: 0.5em 0.25em;

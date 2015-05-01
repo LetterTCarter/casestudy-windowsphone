@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="description" content="Windows Phone Homepage">
@@ -22,12 +22,25 @@
     <!-- endbuild -->
   </head>
   <body>
+
+    <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
     <!--[if lt IE 10]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
     <div class="container">
       <header class="page-header">
-        <img src="images/WindowsPhone-68217A-175x25.png" alt="Windows Phone Logo">
+        <a href="#">
+          <img src="images/WindowsPhone-68217A-175x25.png" alt="Windows Phone Logo">
+        </a>
+
         <h1 class="visuallyhidden">Windows Phone</h1>
 
         <div class="search-box">
@@ -49,7 +62,10 @@
       <div class="container-header">
         <div class="cortana-link">
           <img id="cortana-icon" src="images/Cortana-emotions-cropped-Desktop.png" alt="Cortana Icon">
-          <h3><a href="#">Meet Cortana, your very own personal assistant<img src="images/cta-arrow_1BA1E2.png" alt="blue arrow button"></a></h3>
+          <h3>
+            <a href="#">Meet Cortana, your very own personal assistant
+            <img src="images/cta-arrow_1BA1E2.png" alt="blue arrow button"></a>
+          </h3>
         </div>
       </div>
     </article>
@@ -57,49 +73,71 @@
     <article class="cortana-video">
       <div class="container">
         <img id="cortana-video-preview" src="images/HP-Lumia635-HTCOne-panel_InvariantCulture_Default.png" alt="Lumia 635 and HTCOne Phones">
+
         <a href="#">
-          <img id="cortana-play" src="images/playxlarge.png" alt="play button">
+          <img id="play-button" src="images/playxlarge.png" alt="play button">
         </a>
+
         <div class="cortana-video-text">
           <h2>Get Cortana with<br>
           new Windows Phones</h2>
 
           <p>Now with the Lumia 635 or new HTC One® (M8) for Windows®, you’ll get your very own personal assistant. Cortana helps you keep appointments by checking your calendar and current traffic. And she keeps you close to those you care about with helpful, proactive reminders.</p>
 
-          <h3><a href="#">Buy now from Microsoft Store for ATT<img src="images/cta-arrow-trans-white.png" alt="white arrow button"></a></h3>
-          <h3><a href="#">Buy the HTC One (M8) for Windows<img src="images/cta-arrow-trans-white.png" alt="white arrow button"></a></h3>
+          <h3>
+            <a href="#">Buy now from Microsoft Store for ATT
+              <img src="images/cta-arrow-trans-white.png" alt="white arrow button"></a>
+          </h3>
+
+          <h3>
+            <a href="#">Buy the HTC One (M8) for Windows
+              <img src="images/cta-arrow-trans-white.png" alt="white arrow button"></a>
+          </h3>
         </div>
       </div>
     </article>
 
     <article class="personal-smartphone-video">
-      <img src="images/HP-Windows-Phone-Most-Personal-Smartphone_InvariantCulture_Default.jpg" alt="Girl taking selfie with yellow Windows Phone">
       <div class="container">
+
+        <img id="play-button" src="images/playxlarge.png" alt="play button">
+
         <div class="smartphone-video-text">
-      <h2>Meet the world's most personal smartphone</h2>
+          <h2>Meet the world's most personal smartphone</h2>
 
-      <p>Your Windows Phone truly comes alive when the things you love are put in it. People, places, songs, photos, and apps automatically update right on your Start screen. Plus, OneDrive is built in, so you can take your stuff virtually wherever you go. There’s never been a smartphone that’s more you.</p>
+          <p>Your Windows Phone truly comes alive when the things you love are put in it. People, places, songs, photos, and apps automatically update right on your Start screen. Plus, OneDrive is built in, so you can take your stuff virtually wherever you go. There’s never been a smartphone that’s more you.</p>
 
-      <h3><a href="#">See what's new with <br>Windows Phone 8.1<img src="images/cta-arrow-trans-white.png" alt="white arrow button"></a></h3>
-    </div>
-    </div>
+          <h3><a href="#">See what's new with <br>Windows Phone 8.1<img src="images/cta-arrow-trans-white.png" alt="white arrow button"></a></h3>
+        </div>
+      </div>
     </article>
 
     <article class="apps-and-games">
       <img id="apps-montage" src="images/appsPanel-bg.png" alt="Windows Phone Apps Icon Montage">
 
-      <div class="apps-container">
+      <div class="container">
+
+      <div class="apps-text">
         <h2>The apps and games you want</h2>
 
         <p>The only phone with Live Apps, which bring the info you want right to your Start screen. Most apps are free or free to try, and they’re all certified.</p>
 
-        <h3><a href="#">Explore Apps+Games<img src="images/cta-arrow-trans-white.png" alt="white arrow button"></a></h3>
-        <h3><a href="#">Learn more<img src="images/cta-arrow-trans-white.png" alt="white arrow button"></a></h3>
+        <h3>
+          <a href="#">Explore Apps+Games
+            <img src="images/cta-arrow-trans-white.png" alt="white arrow button"></a>
+        </h3>
+
+        <h3>
+          <a href="#">Learn more
+            <img src="images/cta-arrow-trans-white.png" alt="white arrow button"></a>
+        </h3>
       </div>
+    </div>
     </article>
 
     <div class="container">
       <div class="pre-footer">
+
         <article class="pre-footer-module">
           <img src="images/Promo-StarWars_InvariantCulture_Default.jpg" alt="Star Wars Promo Image">
           <h5><a href="#">Star Wars: The Movie collection</a></h5>
@@ -143,8 +181,8 @@
             <li><a href="#">Site map</a></li>
             <li><a href="#">Contact us</a></li>
             <li><a href="#">Feedback</a></li>
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#">Twitter</a></li>
+            <li><div class="fb-like" data-href="https://www.facebook.com/MicrosoftLumia" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div></li>
+            <li><a href="https://twitter.com/windowsphone" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @windowsphone</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></li>
           </ul>
         </nav>
 

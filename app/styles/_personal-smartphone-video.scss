@@ -2,23 +2,31 @@
 
 .personal-smartphone-video {
   @include clearfix;
-  position: relative;
-  color: $white;
   background: url('../images/HP-Windows-Phone-Most-Personal-Smartphone_InvariantCulture_Default.jpg') no-repeat;
+  color: $white;
+  width: 100%;
   margin: 0;
   padding: 0;
-  .smartphone-video-text {
-    width: 20em;
+  .container {
+    position: relative;
+  }
+  #play-button {
     position: absolute;
-    top: 0;
-    right: 40em;
+    top: 9.75em;
+    left: 27em;
   }
   p {
     font-weight: bold;
   }
+  .smartphone-video-text {
+    margin: 0.625em;
+    padding: 0.625em 0.625em 3em 0.625em;
+    width: 23em;
+    float: right;
+  }
   h3 img {
     float: none;
-    padding-left: 0.625em;
+    padding-left: 0.325em;
   }
   a {
     text-decoration: none;
